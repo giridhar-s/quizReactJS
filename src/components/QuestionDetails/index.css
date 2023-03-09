@@ -1,0 +1,42 @@
+.question{
+    font-size: 18px;
+    font-family: bree serif;
+    font-weight: 600;
+    color: cornflowerblue;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+.option-btn{
+    width: 45%;
+    background-color: transparent;
+    border: #8f8686 1px solid;
+    height: 35px;
+    margin: 5px;
+    color: #6b6767;
+    font-size: 15px;
+    cursor: pointer;
+}
+.option-btn:hover{
+    background-color: cornflowerblue;
+    color:aliceblue;
+    font-weight: 600;
+    border: 2px solid cornflowerblue;
+}
+.option-btn:focus{
+    background-color: cornflowerblue;
+    color:aliceblue;
+    font-weight: 600;
+    border: 2px solid cornflowerblue;
+}
+li{
+    margin-bottom: 20px;
+}
+
+@media (max-width:576px){
+    .option-btn{
+        width: 95%;
+    }
+    /* li{
+        margin-left: 8px;
+    } */
+}
